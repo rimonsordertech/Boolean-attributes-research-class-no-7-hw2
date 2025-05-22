@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport
+" content="width=device-width, initial-scale=1.0">
+  <title>Extended Boolean Attributes Example</title>
+</head>
+<body>
+    <h1>📝 Student Registration Form</h1>
+     <form novalidate>
+    <!-- Text input with autofocus, required -->
+    <label>Full Name:
+      <input type="text" required autofocus>
+    </label><br><br>
+
+    <!-- Readonly field -->
+    <label>Course:
+      <input type="text" value="Web Design" readonly>
+    </label><br><br>
+     <!-- Disabled input -->
+    <input type="text" value="Disabled Field" disabled><br><br>
+
+    <!-- Checkbox with checked -->
+    <input type="checkbox" checked> Subscribe<br><br>
+
+     <!-- Radio button with checked -->
+    <input type="radio" name="gender" checked> Male
+    <input type="radio" name="gender"> Female<br><br>
+
+    <!-- Select with multiple and selected -->
+    <select multiple>
+      <option selected>HTML</option>
+      <option>CSS</option>
+      <option>JS</option>
+    </select><br><br>
+<!-- Hidden element -->
+    <p hidden>This text is hidden</p>
+
+    <!-- Submit button skipping validation -->
+    <button type="submit" formnovalidate>Submit without Validation</button>
+  </form>
+<!-- Video with autoplay, controls, muted, loop -->
+  <video src="sample.mp4" autoplay controls muted loop width="300"></video>
+ <!-- Details with open -->
+  <details open>
+    <summary>More Info</summary>
+    <p>This is extra information shown by default.</p>
+  </details>
+  <!-- Editable div -->
+  <div contenteditable>Click here and edit this text!</div>
+
+
+
+</body>
+</html>
